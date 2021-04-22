@@ -2,7 +2,7 @@
 
 modprobe msr
 
-if cat /proc/cpuinfo | grep "AMD Ryzen" > /dev/null;
+if cat /proc/cpuinfo | grep "EPYC" > /dev/null;
 	then
 	if cat /proc/cpuinfo | grep "cpu family[[:space:]]:[[:space:]]25" > /dev/null;
 		then
